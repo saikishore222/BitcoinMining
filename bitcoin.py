@@ -8,9 +8,9 @@ from flask_toastr import Toastr
 from flask import flash
 import secrets
 
+
+
 secret = secrets.token_urlsafe(32)
-
-
 class Block:
     def __init__(self, index, transactions, timestamp, previous_hash, nonce=0):
         self.index = index
