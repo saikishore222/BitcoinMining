@@ -1,6 +1,6 @@
 # BitcoinMining 
 
-To run Code 
+run Code 
 
 python bitcoin.py
 
